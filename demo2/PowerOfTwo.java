@@ -1,4 +1,4 @@
-package com.cg.lab;
+package com.cg.demo2;
 
 public class PowerOfTwo {
 	

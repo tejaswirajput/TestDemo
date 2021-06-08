@@ -1,4 +1,4 @@
-package com.cg.lab;
+package com.cg.demo2;
 import java.util.Scanner;
 
 public class ArrayExcercise2 {
