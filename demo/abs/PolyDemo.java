@@ -22,10 +22,10 @@ public class PolyDemo {
 	public static void main(String[] args) {
 		
 		PolyDemo polydemo = new PolyDemo();
-//		System.out.println(polydemo.add(10,20));
-//		System.out.println(polydemo.add(10,20,30));
-//		System.out.println(polydemo.add(10,20,30,40));
-//		
+		System.out.println(polydemo.add(10,20));
+		System.out.println(polydemo.add(10,20,30));
+		System.out.println(polydemo.add(10,20,30,40));
+		
 	}
 	
 
