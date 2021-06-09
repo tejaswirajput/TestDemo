@@ -1,5 +1,6 @@
 package com.cg.demo.lab;
 
+import java.net.MulticastSocket;
 import java.util.Scanner;
 	
 	public class Lab2 { 
@@ -20,18 +21,21 @@ import java.util.Scanner;
 		}
 
 		public static void main(String[] args) {
-			Scanner Sc = new Scanner(System.in);
+			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter the size of array");
-			int size = Sc.nextInt();
+			int size = sc.nextInt();
+			
 
 			int[] arr1 = new int[size];
-
+			
 			for (int i = 0; i < arr1.length; i++) {
 				System.out.println("Please Enter elements in the array ");
-				arr1[i] = Sc.nextInt();
+				arr1[i] = sc.nextInt();
+				
 			}
 
-			SecondSmallestNumber(arr1, size);
+			//SecondSmallestNumber(arr1, size);
+		
 		}
 	
 
