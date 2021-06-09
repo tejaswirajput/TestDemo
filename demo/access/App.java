@@ -16,7 +16,7 @@ public class App {
 		  //System.out.println(obj.privateField);
 		  
 		  com.cg.demo.method.Employee emp = new com.cg.demo.method.Employee();
-		  com.lab.Lab2 emp2 = new com.lab.Lab2();
+		  com.cg.demo.lab.Lab2 emp2 = new com.cg.demo.lab.Lab2();
 		}
 
 
